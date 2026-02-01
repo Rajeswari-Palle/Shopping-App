@@ -4,7 +4,7 @@ import { Button, Form } from "react-bootstrap";
 import { useState } from "react";
 import Rating from "./Rating";
 import { CartState } from "../Context/Context";
-const Filter = () => {
+const Filters = () => {
   const {
     productState: { byStock, byFastDelivery, sort, byRating },
     productDispatch,
@@ -100,4 +100,4 @@ const Filter = () => {
   );
 };
 
-export default Filter;
+export default Filters;
